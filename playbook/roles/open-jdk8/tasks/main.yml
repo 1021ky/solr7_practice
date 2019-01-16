@@ -1,0 +1,6 @@
+---
+# tasks file for open-jdk
+- name: install open-jdk
+  apt: 
+    name: openjdk-8-jre
+    state: present

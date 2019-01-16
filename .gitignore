@@ -1,0 +1,7 @@
+/.vagrant/*
+
+*.retry
+
+*.tgz
+
+*.log

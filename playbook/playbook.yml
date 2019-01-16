@@ -1,0 +1,12 @@
+---
+  # environment:
+  #   https_proxy: "{{ lookup('env', 'https_proxy') }}"
+
+- hosts: all
+  become: yes
+  become_user: root
+  user: vagrant
+  roles:
+    - common
+    - open-jdk8
+    - solr7_6
